@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #000;
+  background-color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+}
+
+input, textarea, button, select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+header {
+  color: #000;
+  background-color: #2d62cb;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 1rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+}
+
+header a {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+nav a, nav a:visited {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: underline;
+}
+
+main {
+  margin: auto;
+}
+
+section {
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+}
+
+article {
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 350px;
+  min-height: 450px;
+  margin: .5em;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: .5em 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+}
+
+textarea {
+  height: 200px;
+}
+
+.postCredit {
+  font-size: 1rem;
+}
+
+.postCredit a, .postCredit a:visited {
+  color: #000;
+  margin-right: .5rem;
+}
+
+.postCredit a:hover, .postCredit a:focus {
+  color: #000000bf;
+}
+
+.excerpt {
+  font-style: italic;
+}
+
+.reactionButton {
+  color: #000;
+  background: none;
+  border: none;
+  margin: 0 .25em 0 0;
+  font-size: 1rem;
+}
+
+.deleteButton {
+  color: #000;
+  background-color: #fff;
+}
+
+.saveButton {
+  color: #fff;
+  background-color: #6495ed;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
